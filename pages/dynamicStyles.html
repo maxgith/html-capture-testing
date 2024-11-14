@@ -1,0 +1,15 @@
+<html lang="en">
+<head>
+  <title>Dynamic styles</title>
+</head>
+<body>
+<div class="red">This text should be red</div>
+
+<script>
+const styleElement = document.createElement('style');
+document.head.appendChild(styleElement);
+
+styleElement.sheet.insertRule('.red { color: red; }', 0);
+</script>
+</body>
+</html>
