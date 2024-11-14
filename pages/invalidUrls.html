@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+  <title>Invalid urls</title>
+  <style>
+    @font-face {
+      font-family: "Invalid url";
+      src: url('invalid_url') format("woff");
+    }
+
+    img {
+      background: url('invalid_url');
+      font-family: "Invalid url";
+    }
+  </style>
+</head>
+<body>
+  Page should be captured
+  <br/>
+  <img width="60" height="60" src="invalid_url" alt="" />
+  <video poster="invalid_url" src="invalid_url">
+    <track src="invalid_url" />
+  </video>
+</body>
+</html>
