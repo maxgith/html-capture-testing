@@ -1,0 +1,11 @@
+{
+  "name": "html-capture-testing",
+  "version": "1.0.0",
+  "main": "server.mjs",
+  "repository": "https://github.com/maxgith/html-capture-testing.git",
+  "author": "Maxim Baranov <maxpostbox1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
